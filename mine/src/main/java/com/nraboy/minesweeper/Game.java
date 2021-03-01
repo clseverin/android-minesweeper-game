@@ -4,6 +4,8 @@ import android.view.*;
 import android.widget.*;
 import android.graphics.*;
 
+import com.android.minesweeper.R;
+
 public class Game {
 
     private GameView gameView;

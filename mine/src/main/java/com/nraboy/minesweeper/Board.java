@@ -5,6 +5,8 @@ import android.graphics.*;
 import android.content.*;
 import android.view.*;
 
+import com.android.minesweeper.R;
+
 public class Board {
 
     public Cell[][] grid;

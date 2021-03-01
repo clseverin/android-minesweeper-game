@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/android-minesweeper-game.iml" filepath="$PROJECT_DIR$/.idea/android-minesweeper-game.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/android-minesweeper-game.iml" filepath="$PROJECT_DIR$/.idea/modules/android-minesweeper-game.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/mine/android-minesweeper-game.mine.iml" filepath="$PROJECT_DIR$/.idea/modules/mine/android-minesweeper-game.mine.iml" />
     </modules>
   </component>
 </project>
