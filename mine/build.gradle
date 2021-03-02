@@ -1,6 +1,8 @@
 plugins {
     id 'com.android.application'
 }
+apply plugin: 'com.android.application'
+apply plugin: 'com.google.gms.google-services'
 
 android {
     compileSdkVersion 30
@@ -30,4 +32,15 @@ android {
 }
 
 dependencies {
+    implementation platform('com.google.firebase:firebase-bom:26.5.0')
+    implementation 'com.google.firebase:firebase-analytics'
+    // Import the Firebase BoM
+    implementation platform('com.google.firebase:firebase-bom:26.6.0')
+    // Declare the dependency for the Firebase SDK for Google Analytics
+    implementation 'com.google.firebase:firebase-analytics'
+
+    // Declare the dependencies for any other desired Firebase products
+    // For example, declare the dependencies for Firebase Authentication and Cloud Firestore
+    implementation 'com.google.firebase:firebase-auth'
+    implementation 'com.google.firebase:firebase-firestore'
 }
